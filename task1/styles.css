@@ -51,4 +51,43 @@ body {
 .image-big img {
   width: 2000px;
   height: 994px;
+  margin-bottom: 20px;
+}
+
+.h1 {
+  position: relative;
+  left: 128px;
+  color: rgb(22, 24, 23);
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.h2 {
+  position: relative;
+  left: 128px;
+  color: rgb(113, 113, 113);
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 73px;
+}
+
+.h3 {
+  position: relative;
+  left: 128px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 53px;
+}
+
+.h3 img {
+  width: 32px;
+  height: 30px;
+  margin-right: 11px;
+}
+
+.h3-context {
+  position: relative;
+  color: rgb(22, 24, 23);
+  font-size: 24px;
 }
