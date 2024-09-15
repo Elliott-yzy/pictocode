@@ -6,6 +6,9 @@ body {
   padding: 0;
   overflow: hidden;
   font-family: sans-serif;
+
+  background-image: url('page.png'); /* 确保路径正确 */
+  background-repeat: no-repeat;
 }
 
 .left-column {
@@ -23,7 +26,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 70px;
+  margin-bottom: 60px;
 }
 
 .left-icon svg {
@@ -34,13 +37,14 @@ body {
 
 .left-number {
   margin-top: 23px;
-  font-size: 24px;
+  font-size: 26px;
   fill: #525252;
 }
 
 .content {
   flex: 1;
-  padding: 20px;
+
+  opacity: 0.3;
 }
 
 .image-big {
@@ -51,43 +55,66 @@ body {
 .image-big img {
   width: 2000px;
   height: 994px;
-  margin-bottom: 20px;
+  margin-bottom: 48px;
+}
+
+.h1, .h2, .h3, .h4, .h5 {
+  padding-left: 128px;
+  position: relative;
 }
 
 .h1 {
-  position: relative;
-  left: 128px;
-  color: rgb(22, 24, 23);
-  font-size: 24px;
-  font-weight: bold;
+  color: black;
+  font-size: 32px;
+  font-weight: 900;
   text-decoration: underline;
+  margin-bottom: 4px;
+}
+
+.h1-number {
+  letter-spacing: 3px;
 }
 
 .h2 {
-  position: relative;
-  left: 128px;
+  margin-top: 0;
   color: rgb(113, 113, 113);
-  font-size: 24px;
+  font-size: 25px;
   font-weight: normal;
-  margin-bottom: 73px;
+  margin-bottom: 66px;
+  letter-spacing: 0.006em;
 }
 
 .h3 {
-  position: relative;
-  left: 128px;
   display: flex;
   align-items: center;
-  margin-bottom: 53px;
+  margin-bottom: 35px;
 }
 
 .h3 img {
   width: 32px;
-  height: 30px;
+  height: 31px;
   margin-right: 11px;
 }
 
 .h3-context {
-  position: relative;
   color: rgb(22, 24, 23);
-  font-size: 24px;
+  font-size: 32px;
+}
+
+.h4 {
+  margin-top: 0;
+  color: rgb(22, 24, 23);
+  font-size: 91px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  max-width: 2050px
+}
+
+h5 {
+  padding-top: 56px;
+  margin: 0;
+  font-size: 38px;
+  font-weight: normal;
+  color: rgb(22, 24, 23);
+  max-width: 2050px
 }
