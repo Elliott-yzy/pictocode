@@ -127,3 +127,27 @@ body {
   color: #000000;
   border: none;
 }
+
+.search-makebutton {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.search-button {
+  background-color: #1172bb;
+  color: white;
+  width: 400px;
+  height: 59px;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  box-shadow: 0 0 0 8px #f4f4f4, 0 0 0 9px #c2d9e8;
+}
+
+.search-button::before {
+  content: '\25B6';
+  color: white;
+  font-size: 11px;
+  margin-right: 12px;
+}
