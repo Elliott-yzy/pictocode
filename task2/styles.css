@@ -1,5 +1,6 @@
 body {
   display: flex;
+  flex-direction: column;
   width: 975px;
   height: 610px;
   margin: 0;
@@ -27,4 +28,33 @@ body {
   font-size: 20px;
   font-weight: bond;
   color: #333333;
+  margin-left: 16px;
+}
+
+.content {
+  flex: 1;
+}
+
+.mid-title {
+  font-size: 20px;
+  color: #0673bd;
+  margin-left: 62px;
+  margin-top: 42px;
+}
+
+.mid-bar {
+  width: 861px;
+  height: 5px;
+  display: flex;
+  margin: 10px auto 0;
+}
+
+.mid-bluebar {
+  width: 198px;
+  background-color: #0773bb;
+}
+
+.mid-greybar {
+  width: 663px;
+  background-color: #dfdfdf;
 }
