@@ -26,7 +26,7 @@ body {
 
 .top-title {
   font-size: 20px;
-  font-weight: bond;
+  font-weight: bold;
   color: #333333;
   margin-left: 16px;
 }
@@ -57,4 +57,54 @@ body {
 .mid-greybar {
   width: 663px;
   background-color: #dfdfdf;
+}
+
+.main-text {
+  padding-left: 79px;
+  font-size: 16px;
+  text-align: left;
+  color: black;
+  max-width: 770px;
+  margin-bottom: 20px;
+}
+
+.main-table {
+  width: 821px;
+  height: 219px;
+  margin-left: 78px;
+  border-collapse: collapse;
+}
+
+.main-table th {
+  text-align: center;
+  border: 2px solid #e7e7e7;
+  background-color: #f4f4f4;
+}
+
+.main-table td {
+  padding: 10px;
+  text-align: left;
+  border: 2px solid #e7e7e7;
+  background-color: white;
+}
+
+.main-table select {
+  width: 168px;
+  height: 43px;
+  border: 2px solid #e7e7e7;
+  align-items: center;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.main-table input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  color: #000000;
+  border: 1px solid #ccc;
+}
+
+.main-table tr:last-child td {
+  background-color: white;
 }
