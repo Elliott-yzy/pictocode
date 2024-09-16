@@ -73,12 +73,14 @@ body {
   height: 219px;
   margin-left: 78px;
   border-collapse: collapse;
+  font-size: 14px;
 }
 
 .main-table th {
   text-align: center;
   border: 2px solid #e7e7e7;
   background-color: #f4f4f4;
+  font-weight: 400;
 }
 
 .main-table td {
@@ -91,20 +93,14 @@ body {
 .main-table select {
   width: 168px;
   height: 43px;
+  padding: 5px;
   border: 2px solid #e7e7e7;
   align-items: center;
-  padding: 5px;
-  font-size: 14px;
 }
 
 .main-table input[type="text"] {
   width: 100%;
   padding: 5px;
-  font-size: 14px;
   color: #000000;
-  border: 1px solid #ccc;
-}
-
-.main-table tr:last-child td {
-  background-color: white;
+  border: none;
 }
