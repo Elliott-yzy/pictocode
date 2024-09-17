@@ -14,21 +14,23 @@ body {
   width: 100%;
   height: 57px;
   background: linear-gradient(to bottom, #f2f3f5 0%, #f2f3f5 calc(100% - 2px), #e0e0de 100%);
-  align-items: center;
 }
 
 .top-bluebar {
-  width: 5px;
-  height: 31px;
+  width: 4px;
+  height: 30px;
   background-color: #0673bd;
-  margin-left: 9px;
+  margin-top: 12px;
+  margin-left: 10px;
 }
 
 .top-title {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   color: #333333;
+  margin-top: 12px;
   margin-left: 16px;
+  word-spacing: 0.04em;
 }
 
 .content {
@@ -36,17 +38,20 @@ body {
 }
 
 .mid-title {
-  font-size: 20px;
+  font-size: 24px;
+  font-weight: 400;
   color: #0673bd;
-  margin-left: 62px;
-  margin-top: 42px;
+  margin-left: 60px;
+  margin-top: 37px;
+  margin-bottom: 0px;
+  word-spacing: -0.06em;
 }
 
 .mid-bar {
-  width: 861px;
-  height: 5px;
+  width: 860px;
+  height: 4px;
   display: flex;
-  margin: 10px auto 0;
+  margin: 11px 0 24px 58px;
 }
 
 .mid-bluebar {
@@ -55,25 +60,26 @@ body {
 }
 
 .mid-greybar {
-  width: 663px;
+  width: 662px;
   background-color: #dfdfdf;
 }
 
 .main-text {
-  padding-left: 79px;
+  padding-left: 78px;
   font-size: 16px;
   text-align: left;
   color: black;
   max-width: 770px;
   margin-bottom: 20px;
+  line-height: 1.38;
+  letter-spacing: -0.01em;
 }
 
 .main-table {
   width: 821px;
-  height: 219px;
   margin-left: 78px;
   border-collapse: collapse;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .main-table th {
@@ -81,6 +87,10 @@ body {
   border: 2px solid #e7e7e7;
   background-color: #f4f4f4;
   font-weight: 400;
+  width: 173px;
+  height: 69px;
+  letter-spacing: -0.01em;
+  padding-top: 1px;
 }
 
 .main-table td {
@@ -94,25 +104,27 @@ body {
   position: relative;
   display: inline-block;
   width: 168px;
-  margin-right: 10px;
+  margin-right: 7px;
 }
 
 .table-select {
   width: 100%;
   height: 43px;
-  padding: 8px;
+  padding: 10px 8px 8px 13px;
   border: 2px solid #e7e7e7;
   border-radius: 6px;
+  font-size: 16px;
+  word-spacing: -0.1em;
   appearance: none;
   background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 6"><path fill="black" d="M0 0l5 6 5-6z"/></svg>') no-repeat;
-  background-position: calc(100% - 10px) center;
+  background-position: calc(100% - 12px) center;
   background-size: 10px;
 }
 
 .maintable-select::before {
   content: '';
   position: absolute;
-  right: 30px;
+  right: 35px;
   top: 50%;
   transform: translateY(-50%);
   width: 2px;
@@ -122,16 +134,17 @@ body {
 }
 
 .main-table input[type="text"] {
-  width: 100%;
-  padding: 5px;
+  width: 90%;
+  padding: 1px 0px 0px 15px;
   color: #000000;
   border: none;
+  font-size: 16px;
 }
 
 .search-makebutton {
   display: flex;
-  justify-content: center;
-  margin-top: 50px;
+  margin-top: 47px;
+  margin-left: 289px;
 }
 
 .search-button {
@@ -148,6 +161,6 @@ body {
 .search-button::before {
   content: '\25B6';
   color: white;
-  font-size: 11px;
-  margin-right: 12px;
+  font-size: 10px;
+  margin-right: 13px;
 }
