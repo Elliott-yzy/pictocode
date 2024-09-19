@@ -17,6 +17,7 @@ body {
 .container {
   display: grid;
   grid-template-rows: auto auto;
+  row-gap: 10px;
 }
 
 .top-row {
@@ -53,10 +54,7 @@ body {
   border-bottom: 1px solid #888;
   font-size: 16px;
   outline: none;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
+  border-radius: 8px 8px 0 0;
 }
 
 .button-next {
@@ -115,17 +113,72 @@ body {
   width: 368px;
   height: 541px;
   background-color: #16a249;
+  border-radius: 18px;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+.rewards-icon {
+  height: 130px;
+  margin-top: 5px;
+  margin-left: -70px;
+  margin-bottom: 0px;
+}
+
+.rewards-box h2 {
+  margin-top: 45px;
+  font-size: 24px;
+  color: white;
+}
+
+.rewardsbox-text {
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.rewards-button {
+  background-color: #16a249;
+  color: white;
+  width: 284px;
+  height: 44px;
+  border: 2px solid white;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 15px;
 }
 
 .bottom-row {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 16px;
 }
 
 .pass-box, .quick-payment-box {
   width: 464px;
   height: 252px;
   background-color: white;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+.icon-title {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  gap: 10px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
 }
 
