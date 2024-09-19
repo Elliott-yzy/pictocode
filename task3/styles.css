@@ -22,13 +22,53 @@ body {
 .top-row {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 16px;
 }
 
 .login-box {
   width: 552px;
   height: 541px;
   background-color: white;
+  border-radius: 18px;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-box h1 {
+  padding-left: 40px;
+  align-self: flex-start;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.login-box input[type="text"] {
+  width: 472px;
+  height: 55px;
+  padding: 5px 0px 5px 15px;
+  background-color: #f5f5f5;
+  color: #000000;
+  border: none;
+  border-bottom: 1px solid #888;
+  font-size: 16px;
+  outline: none;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.button-next {
+  margin-top: 35px;
+  background-color: #0f893c;
+  color: white;
+  width: 472px;
+  height: 48px;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 15px;
 }
 
 .rewards-box {
