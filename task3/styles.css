@@ -101,9 +101,9 @@ body {
 .login-help-button {
   background-color: white;
   color: #0f893c;
-  width: 472px;
-  height: 48px;
-  border: 1px solid #0f893c;
+  width: 468px;
+  height: 44px;
+  border: 2px solid #0f893c;
   font-size: 18px;
   font-weight: 500;
   border-radius: 15px;
@@ -182,3 +182,20 @@ body {
   height: 24px;
 }
 
+.twobox-text {
+  font-size: 16px;
+  max-width: 400px;
+  padding-top: 15px;
+}
+
+.twobox-button {
+  background-color: white;
+  color: #0f893c;
+  width: 380px;
+  height: 44px;
+  border: 2px solid #0f893c;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 15px;
+  margin-top: 30px;
+}
