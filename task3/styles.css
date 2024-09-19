@@ -67,7 +67,47 @@ body {
   height: 48px;
   border: none;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
+  border-radius: 15px;
+}
+
+.button-forget {
+  margin-top: 35px;
+  font-size: 16px;
+  border: none;
+  background-color: white;
+  color: #0f893c;
+  font-weight: 300;
+  text-decoration: underline;
+  text-decoration-color: #0f893c;
+}
+
+.account-helper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #000000;
+  margin: 50px 0px 30px 0px;
+  width: 472px;
+}
+
+.account-helper::before, .account-helper::after {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  background-color: #c5d0cb;
+  margin: 0 10px;
+}
+
+.login-help-button {
+  background-color: white;
+  color: #0f893c;
+  width: 472px;
+  height: 48px;
+  border: 1px solid #0f893c;
+  font-size: 18px;
+  font-weight: 500;
   border-radius: 15px;
 }
 
@@ -88,3 +128,4 @@ body {
   height: 252px;
   background-color: white;
 }
+
