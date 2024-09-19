@@ -5,16 +5,46 @@
 }
 
 body {
+  width: 1552px;
+  height: 917px;
   font-family: 'Open Sans';
   background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
 
 .container {
-  max-width: 1552px;
-  margin: 0 auto;
-  padding: 20px;
   display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 20px;
-  transform: scale(1);
+  grid-template-rows: auto auto;
+}
+
+.top-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.login-box {
+  width: 552px;
+  height: 541px;
+  background-color: white;
+}
+
+.rewards-box {
+  width: 368px;
+  height: 541px;
+  background-color: #16a249;
+}
+
+.bottom-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pass-box, .quick-payment-box {
+  width: 464px;
+  height: 252px;
+  background-color: white;
 }
