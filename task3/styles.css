@@ -298,5 +298,52 @@ body {
     border-radius: 0px;
     box-shadow: none;
   }
+    
+  .login-box h1 {
+    font-size: 18px;
+    padding-left: 18px;
+    margin-bottom: 29px;
+    margin-top: 26px;
+    letter-spacing: -0.015em;
+  }
+  
+  .login-box input[type="text"] {
+    width: 255px;
+    height: 41px;
+    font-size: 12px;
+    padding-top: 13px;
+    letter-spacing: 0.02em;
+    border-radius: 2px 2px 0 0;
+  }
+
+  .button-next {
+    margin-top: 26px;
+    width: 255px;
+    height: 36px;
+    font-size: 14px;
+    padding-top: 2px;
+    padding-right: 1px;
+    margin-bottom: 24px;
+  }
+
+  .button-forget {
+    margin-top: 0px;
+    font-size: 12.5px;
+    margin-bottom: 20px;
+  }
+
+  .account-helper {
+    font-size: 12px;
+    margin: 16px 2px 24px 0px;
+    width: 100%;
+  }
+
+  .account-helper::before, .account-helper::after {
+    content: "";
+    flex-grow: 1;
+    height: 1px;
+    background-color: #c5d0cb;
+    margin: 0 18px 0 14px;
+  }
 
 }
