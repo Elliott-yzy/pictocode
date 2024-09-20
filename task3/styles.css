@@ -346,4 +346,36 @@ body {
     margin: 0 18px 0 14px;
   }
 
+  .login-help-button {
+    width: 255px;
+    height: 37px;
+    border-radius: 11px;
+    font-size: 14px;
+  }
+
+  .rewards-icon {
+    transform: scale(0.87);
+    height: 100px;
+    margin-top: -28px;
+    margin-left: -77px;
+    margin-bottom: 0px;
+  }
+
+  .rewards-box h2 {
+    margin-top: 43px;
+    margin-left: -2px;
+    font-size: 17px;
+    color: white;
+    line-height: 1.25em;
+    letter-spacing: 0.04em;
+    word-spacing: -0.2em;
+  }
+
+  .rewardsbox-text {
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 40px;
+  }
+
 }
