@@ -12,9 +12,6 @@ body {
   display: flex;
   justify-content: center;
   padding: 20px;
-/* 
-  background-image: url('page_big.png');
-  background-repeat: no-repeat; */
 }
 
 .container {
@@ -280,9 +277,8 @@ body {
     width: 100%;
     height: 100%;
   }
-  
+
   .top-row, .bottom-row {
-    display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -292,14 +288,14 @@ body {
   }
   
   .login-box {
-    width: 100%;
+    width: 291px;
     height: 400px;
     border-radius: 0px;
     box-shadow: none;
   }
 
   .rewards-box {
-    width: 100%;
+    width: 291px;
     height: 323px;
     border-radius: 0px;
     box-shadow: none;
@@ -332,36 +328,43 @@ body {
     margin-top: 26px;
     letter-spacing: -0.015em;
   }
-  
+
   .login-box input[type="text"] {
     width: 255px;
     height: 41px;
     font-size: 12px;
-    padding-top: 13px;
+    padding: 8px 0px 0px 15px;
     letter-spacing: 0.02em;
     border-radius: 2px 2px 0 0;
+    letter-spacing: 0.021em;
   }
 
   .button-next {
     margin-top: 26px;
     width: 255px;
-    height: 36px;
+    height: 37px;
     font-size: 14px;
     padding-top: 2px;
     padding-right: 1px;
-    margin-bottom: 24px;
+    font-weight: 500;
+    border-radius: 12px;
+    margin-bottom: 22px;
   }
 
   .button-forget {
-    margin-top: 0px;
     font-size: 12.5px;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
+    letter-spacing: 0.01em;
+    font-weight: 300;
   }
 
   .account-helper {
     font-size: 12px;
-    margin: 16px 2px 24px 0px;
-    width: 100%;
+    font-weight: 400;
+    margin: 13px 0px 0px 0px;
+    width: 255px;
+    letter-spacing: 0.-015em;
+    word-spacing: -0.5px;
   }
 
   .account-helper::before, .account-helper::after {
@@ -369,14 +372,25 @@ body {
     flex-grow: 1;
     height: 1px;
     background-color: #c5d0cb;
-    margin: 0 18px 0 14px;
+  }
+
+  .account-helper::before {
+    margin-left: -8px;
+    margin-right: 9px;
+  }
+  
+  .account-helper::after {
+    margin-left: 10px;
+    margin-right: 0px;
   }
 
   .login-help-button {
+    margin-top: 25px;
     width: 255px;
     height: 37px;
-    border-radius: 11px;
     font-size: 14px;
+    font-weight: 500;
+    border-radius: 11px;
   }
 
   .rewards-icon {
@@ -408,10 +422,14 @@ body {
   }
   
   .rewards-button {
+    margin-top: 0px;
     width: 255px;
     height: 37px;
-    border-radius: 13px;
     font-size: 14px;
+    font-weight: 500;
+    border-radius: 13px;
+    letter-spacing: 0.03em;
+    word-spacing: 1px;
     margin-left: -2px;
   }
 
