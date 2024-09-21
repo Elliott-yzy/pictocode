@@ -12,8 +12,8 @@ body {
   display: flex;
   justify-content: center;
   padding: 20px;
-
-  /* background-image: url('page_small.png');
+/* 
+  background-image: url('page_big.png');
   background-repeat: no-repeat; */
 }
 
@@ -27,7 +27,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 16px;
-  margin-top: 35px;
+  margin-top: 15px;
   box-sizing: border-box;
 }
 
@@ -45,14 +45,15 @@ body {
 .login-box h1 {
   padding-left: 40px;
   align-self: flex-start;
-  margin-bottom: 20px;
-  margin-top: 40px;
+  margin-bottom: 37px;
+  margin-top: 37px;
+  letter-spacing: -0.02em;
 }
 
 .login-box input[type="text"] {
   width: 472px;
   height: 55px;
-  padding: 5px 0px 5px 15px;
+  padding: 5px 0px 5px 19px;
   background-color: #f5f5f5;
   color: #000000;
   border: none;
@@ -60,6 +61,7 @@ body {
   font-size: 16px;
   outline: none;
   border-radius: 8px 8px 0 0;
+  letter-spacing: 0.021em;
 }
 
 .button-next {
@@ -69,14 +71,16 @@ body {
   width: 472px;
   height: 48px;
   border: none;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   border-radius: 15px;
+  margin-bottom: 31px;
 }
 
 .button-forget {
-  margin-top: 35px;
   font-size: 16px;
+  margin-bottom: 30px;
+  letter-spacing: 0.01em;
   border: none;
   background-color: white;
   color: #0f893c;
@@ -89,10 +93,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 16px;
+  font-size: 15px;
+  font-weight: 400;
   color: #000000;
-  margin: 50px 0px 30px 0px;
+  margin: 18px 0px 0px 0px;
   width: 472px;
+  letter-spacing: 0.015em;
+  word-spacing: 2px;
+  padding-left: 8px;
 }
 
 .account-helper::before, .account-helper::after {
@@ -100,14 +108,25 @@ body {
   flex-grow: 1;
   height: 1px;
   background-color: #c5d0cb;
-  margin: 0 10px;
+  margin: 0px 10px;
+}
+
+.account-helper::before {
+  margin-left: -8px;
+  margin-right: 14px;
+}
+
+.account-helper::after {
+  margin-left: 14px;
+  margin-right: 0px;
 }
 
 .login-help-button {
+  margin-top: 33px;
   background-color: white;
   color: #0f893c;
-  width: 468px;
-  height: 44px;
+  width: 470px;
+  height: 48px;
   border: 2px solid #0f893c;
   font-size: 18px;
   font-weight: 500;
@@ -127,34 +146,40 @@ body {
 }
 
 .rewards-icon {
+  transform: scale(1.2);
   height: 130px;
-  margin-top: 5px;
-  margin-left: -70px;
+  margin-top: 13px;
+  margin-left: -52px;
   margin-bottom: 0px;
 }
 
 .rewards-box h2 {
-  margin-top: 45px;
+  margin-top: 55px;
   font-size: 24px;
   color: white;
+  letter-spacing: -0.016em;
 }
 
 .rewardsbox-text {
+  margin-top: 6px;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 380;
   color: white;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 
 .rewards-button {
+  margin-top: 33px;
   background-color: #16a249;
   color: white;
   width: 284px;
-  height: 44px;
+  height: 48px;
   border: 2px solid white;
   font-size: 18px;
   font-weight: 500;
   border-radius: 15px;
+  letter-spacing: 0.03em;
+  word-spacing: 1px;
 }
 
 .bottom-row {
@@ -173,14 +198,15 @@ body {
   display: flex;
   flex-direction: column;
   padding-left: 40px;
-  padding-top: 40px;
+  padding-top: 38px;
 }
 
 .icon-title {
   display: flex;
   align-items: center;
-  font-size: 18px;
+  font-size: 20px;
   gap: 10px;
+  letter-spacing: 0.02em;
 }
 
 .icon {
@@ -191,19 +217,22 @@ body {
 .twobox-text {
   font-size: 16px;
   max-width: 400px;
-  padding-top: 15px;
+  padding-top: 14px;
+  letter-spacing: -0.0012em;
 }
 
 .twobox-button {
   background-color: white;
   color: #0f893c;
-  width: 380px;
-  height: 44px;
+  width: 384px;
+  height: 48px;
   border: 2px solid #0f893c;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   border-radius: 15px;
-  margin-top: 30px;
+  margin-top: 34px;
+  word-spacing: 0.03em;
+  letter-spacing: 0.005em;
 }
 
 .need-help-button {
@@ -211,7 +240,7 @@ body {
   height: 100px;
   position: fixed;
   right: 1px;
-  bottom: 30%;
+  top: 57%;
   z-index: 100;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
@@ -219,7 +248,7 @@ body {
   color: white;
   border: none;
   border-radius: 2px 0 0 2px;
-  font-size: 10px;
+  font-size: 13px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: center;
