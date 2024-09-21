@@ -13,8 +13,8 @@ body {
   justify-content: center;
   padding: 20px;
 
-  background-image: url('page_small.png');
-  background-repeat: no-repeat;
+  /* background-image: url('page_small.png');
+  background-repeat: no-repeat; */
 }
 
 .container {
@@ -242,9 +242,6 @@ body {
     display: flex;
     justify-content: center;
     padding: 0;
-
-
-    opacity: 0.6;
   }
   
   .container {
@@ -282,10 +279,10 @@ body {
   }
 
   .pass-box {
+    width: 100%; 
     height: 173px;
-    width: 100%;
     margin: 0;
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     border-radius: 0px;
     box-shadow: none;
   }
@@ -294,7 +291,7 @@ body {
     width: 100%;
     height: 172px;
     margin: 0;
-    padding: 20px;
+    padding: 5px 10px 0 20px;
     border-radius: 0px;
     box-shadow: none;
   }
@@ -387,5 +384,61 @@ body {
     border-radius: 13px;
     font-size: 14px;
     margin-left: -2px;
+  }
+
+  .icon-title {
+    margin-left: -2px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    gap: 6px;
+    margin-top: 12px;
+    letter-spacing: 0.01em;
+  }
+  
+  .icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .twobox-text {
+    font-size: 12px;
+    max-width: 255px;
+    padding-top: 12px;
+    margin-left: -2px;
+    line-height: 1.5em;
+  }
+
+  .twobox-button {
+    width: 255px;
+    height: 36px;
+    margin-top: 23px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 12px;
+    margin-left: -2px;
+    padding-top: 3px;
+    letter-spacing: 0.01em;
+  }
+
+  .need-help-button {
+    width: 28px;
+    height: 74px;
+    position: absolute;
+    right: 1px;
+    top: 48.4%;
+    z-index: 100;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    background-color: #16a249;
+    color: white;
+    border: none;
+    border-radius: 2px 0 0 2px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   }
 }
