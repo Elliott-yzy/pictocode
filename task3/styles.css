@@ -4,79 +4,90 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+  width: 100%;
+  height: 100%;
+}
+
 body {
-  width: 1552px;
-  height: 917px;
+  width: 100%;
+  min-height: 100vh;
   font-family: 'Open Sans';
   background-color: #f6f6f6;
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 2rem;
+/* 
+  background-image: url('page_big.png');
+  background-repeat: no-repeat; */
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 2.4rem;
+
+  /* opacity: 0.7; */
 }
 
 .top-row {
   display: flex;
   justify-content: center;
-  gap: 16px;
-  margin-top: 15px;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
   box-sizing: border-box;
 }
 
 .login-box {
-  width: 552px;
-  height: 541px;
+  width: 59%;
+  height: 58.9967vh;
   background-color: white;
-  border-radius: 18px;
-  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.15);
+  border-radius: 1.8rem;
+  box-shadow: 0 0.2em 0.7em rgba(0, 0, 0, 0.15);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .login-box h1 {
-  padding-left: 40px;
+  padding-left: 4rem;
   align-self: flex-start;
-  margin-bottom: 37px;
-  margin-top: 37px;
+  margin-bottom: 3.7rem;
+  margin-top: 3.7rem;
   letter-spacing: -0.02em;
 }
 
 .login-box input[type="text"] {
-  width: 472px;
-  height: 55px;
-  padding: 5px 0px 5px 19px;
+  width: 85.5%;
+  height: 10.2%;
+  padding: 0.5rem 0 0.5rem 1.9rem;
   background-color: #f5f5f5;
   color: #000000;
   border: none;
-  border-bottom: 1px solid #888;
-  font-size: 16px;
+  border-bottom: 0.1rem solid #888;
+  font-size: 1.6rem;
   outline: none;
-  border-radius: 8px 8px 0 0;
+  border-radius: 0.8rem 0.8rem 0 0;
   letter-spacing: 0.021em;
 }
 
 .button-next {
-  margin-top: 35px;
+  margin-top: 3.5rem;
   background-color: #0f893c;
   color: white;
-  width: 472px;
-  height: 48px;
+  width: 85.5%;
+  height: 8.9%;
   border: none;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 500;
-  border-radius: 15px;
-  margin-bottom: 31px;
+  border-radius: 1.5rem;
+  margin-bottom: 3.1rem;
 }
 
 .button-forget {
-  font-size: 16px;
-  margin-bottom: 30px;
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
   letter-spacing: 0.01em;
   border: none;
   background-color: white;
@@ -90,49 +101,49 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: 400;
   color: #000000;
-  margin: 18px 0px 0px 0px;
-  width: 472px;
+  margin: 1.8rem 0 0 0;
+  width: 85.5%;
   letter-spacing: 0.015em;
-  word-spacing: 2px;
-  padding-left: 8px;
+  word-spacing: 0.2rem;
+  padding-left: 0.8rem;
 }
 
 .account-helper::before, .account-helper::after {
   content: "";
   flex-grow: 1;
-  height: 1px;
+  height: 0.1rem;
   background-color: #c5d0cb;
-  margin: 0px 10px;
+  margin: 0 1rem;
 }
 
 .account-helper::before {
-  margin-left: -8px;
-  margin-right: 14px;
+  margin-left: -0.8rem;
+  margin-right: 1.4rem;
 }
 
 .account-helper::after {
-  margin-left: 14px;
-  margin-right: 0px;
+  margin-left: 1.4rem;
+  margin-right: 0;
 }
 
 .login-help-button {
-  margin-top: 33px;
+  margin-top: 3.3rem;
   background-color: white;
   color: #0f893c;
-  width: 470px;
-  height: 48px;
-  border: 2px solid #0f893c;
-  font-size: 18px;
+  width: 85.5%;
+  height: 8.9%;
+  border: 0.2rem solid #0f893c;
+  font-size: 1.8rem;
   font-weight: 500;
-  border-radius: 15px;
+  border-radius: 1.5rem;
 }
 
 .rewards-box {
-  width: 368px;
-  height: 541px;
+  width: 39.3%;
+  height: 58.9967vh;
   background-color: #16a249;
   border-radius: 18px;
   box-shadow: 0 2px 7px rgba(0, 0, 0, 0.15);
@@ -186,8 +197,8 @@ body {
 }
 
 .pass-box, .quick-payment-box {
-  width: 464px;
-  height: 252px;
+  width: 49.6%;
+  height: 27.48092vh;
   background-color: white;
   padding: 20px;
   border-radius: 18px;
@@ -259,10 +270,10 @@ body {
     padding: 0;
     box-sizing: border-box;
   }
-  
+
   body {
     width: 100%;
-    height: 1068px;
+    min-height: 100vh;
     font-family: 'Open Sans';
     background-color: #f6f6f6;
     display: flex;
@@ -288,24 +299,24 @@ body {
   }
   
   .login-box {
-    width: 291px;
-    height: 400px;
+    width: 100%;
+    height: 37.4532vh;
     border-radius: 0px;
     box-shadow: none;
   }
 
   .rewards-box {
-    width: 291px;
-    height: 323px;
+    width: 100%;
+    height: 30.2434vh;
     border-radius: 0px;
     box-shadow: none;
-    padding: 20px;
+    padding: 2rem;
     position: relative;
   }
 
   .pass-box {
     width: 100%; 
-    height: 173px;
+    height: 16.1517vh;
     margin: 0;
     padding: 20px 20px 0 20px;
     border-radius: 0px;
@@ -314,7 +325,7 @@ body {
 
   .quick-payment-box {
     width: 100%;
-    height: 172px;
+    height: 16.1517vh;
     margin: 0;
     padding: 5px 10px 0 20px;
     border-radius: 0px;
