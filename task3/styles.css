@@ -18,9 +18,6 @@ body {
   display: flex;
   justify-content: center;
   padding: 2rem;
-
-  /* background-image: url('page_big.png');
-  background-repeat: no-repeat; */
 }
 
 .container {
@@ -28,8 +25,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
-
-  /* opacity: 0.7; */
 }
 
 .top-row {
@@ -325,7 +320,7 @@ body {
     width: 100%; 
     height: 16.1517vh;
     margin: 0;
-    padding: 2rem 2rem 0 2rem;
+    padding: 2rem 1rem 0 2rem;
     border-radius: 0;
     box-shadow: none;
   }
@@ -334,8 +329,8 @@ body {
     width: 100%;
     height: 16.1517vh;
     margin: 0;
-    padding: 0.5rem 1rem 0 2rem;
-    border-radius: 0px;
+    padding: 0.5rem 1rem 1rem 2rem;
+    border-radius: 0;
     box-shadow: none;
   }
     
@@ -441,8 +436,8 @@ body {
   
   .rewards-button {
     margin-top: 0;
-    width: 87.6%;
-    height: 11.5%;
+    width: 101.5%;
+    height: 12.5%;
     font-size: 1.4rem;
     font-weight: 500;
     border-radius: 1.3rem;
@@ -475,8 +470,8 @@ body {
   }
 
   .twobox-button {
-    width: 87.6%;
-    height: 20.8%;
+    width: 97.8%;
+    height: 23.7%;
     margin-top: 2.3rem;
     font-size: 1.4rem;
     font-weight: 500;
