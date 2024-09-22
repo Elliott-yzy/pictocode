@@ -141,6 +141,10 @@ body {
   font-size: 16px;
 }
 
+.main-table input[type="text"]::placeholder {
+  color: #000000;
+}
+
 .search-makebutton {
   display: flex;
   margin-top: 47px;
