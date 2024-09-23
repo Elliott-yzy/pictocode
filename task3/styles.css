@@ -18,6 +18,9 @@ body {
   display: flex;
   justify-content: center;
   padding: 2rem;
+
+  background-image: url('page_big.png');
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -25,6 +28,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
+
+  opacity: 0.7;
 }
 
 .top-row {
@@ -145,20 +150,25 @@ body {
   box-shadow: 0 0.2rem 0.7rem rgba(0, 0, 0, 0.15);
   display: flex;
   flex-direction: column;
-  padding-left: 4rem;
+  padding-left: 4.1rem;
   margin-bottom: 0;
 }
 
 .rewards-icon {
-  transform: scale(1.2);
-  height: 13rem;
-  margin-top: 1.3rem;
-  margin-left: -5.2rem;
-  margin-bottom: 0;
+  width: 7.5vw;
+  height: 7.5vw;
+  margin-top: 6.8vh;
+  margin-left: -0.9vw;
+}
+
+.rewards-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .rewards-box h2 {
-  margin-top: 5.5rem;
+  margin-top: 2rem;
   font-size: 2.4rem;
   color: white;
   letter-spacing: -0.016em;
@@ -176,7 +186,7 @@ body {
   margin-top: 3.3rem;
   background-color: #16a249;
   color: white;
-  width: 88.3%;
+  width: 87.6%;
   height: 8.9%;
   border: 0.2rem solid white;
   font-size: 1.8rem;
