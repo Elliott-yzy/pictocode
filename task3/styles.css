@@ -265,6 +265,18 @@ body {
   padding: 0;
 }
 
+.button-next, .button-forget, .rewards-button, .twobox-button, .login-help-button, .need-help-button {
+  transition: transform 0.1s ease;
+}
+
+.button-next:active, .button-forget:active, .rewards-button:active, .twobox-button:active, .login-help-button:active {
+  transform: scale(0.98);
+}
+
+.need-help-button:active {
+  transform: rotate(180deg) scale(0.98);
+}
+
 @media (max-width: 291px) {
   * {
     margin: 0;
