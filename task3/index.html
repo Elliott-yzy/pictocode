@@ -6,23 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <title>Login Page</title>
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      function updateHeading() {
-        const rewardHeading = document.querySelector('.rewards-box h2');
-        const rewardText = document.querySelector('.rewardsbox-text');
-        if (window.innerWidth <= 356) {
-          rewardHeading.textContent = 'COMP6080 Customer Rewards';
-          rewardText.textContent = 'Save on GitHub Pro, Nitro more';
-        } else {
-          rewardHeading.textContent = 'COMP6080 Rewards';
-          rewardText.textContent = 'Save on GitHub Pro, Nitro and more';
-        }
-      }
-      updateHeading();
-      window.addEventListener('resize', updateHeading);
-    });
-  </script>
 </head>
 
 <body>
@@ -73,7 +56,7 @@
     </div>
   </div>
   <button class="need-help-button">Need help?</button>
+  <script src="script.js"></script>
 </body>
-
 
 </html>
