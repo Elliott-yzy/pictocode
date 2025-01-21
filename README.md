@@ -1,13 +1,5 @@
 # Assessment 1 (HTML, CSS)
 
-[Please see course website for full spec](https://cgi.cse.unsw.edu.au/~cs6080/NOW/assessments/assignments/ass1)
-
-This assignment is due *Friday 27th September, 8pm*.
-
-Please run `./util/setup.sh` in your terminal before you begin. This will set up some checks in relation to the "Git Commit Requirements".
-
-## Your Task - PicToCode
-
 ### 1. Task 1 - Static, fixed size page
 
 Build a page that looks identical to [task1/page.png](task1/page.png). The window width you should work with is 2560 x 1838 pixels. You are only allowed to use HTML and CSS for this task. No external libraries are permitted.
